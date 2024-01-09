@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;700&display=swap');
+
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+    font-family: 'Tektur', sans-serif;
+} 
+.sayfa{
+    padding-left: 5%;
+    padding-right: 10%;
+    background-image: url(Resimler/arkaplan4.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+p{
+    font-size: 20px;
+    color: aliceblue;
+    line-height: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+    border: 5px;  
+}
+.navbar img{
+    height:75px;
+    width: 75px;
+}
+.navbar a{
+    color: aliceblue;
+}
+.navbar ul{
+ list-style: none;
+}
+.navbar ul li a{
+    border: 5px;
+    padding: 0 20px;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: rgb(238, 139, 25);
+}
+.altsayfa {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+ }
+.buton{
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    color: black;
+    background-color: aliceblue;
+    border-radius: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+.bas p{
+    font-size: 12px;
+}
+.kart{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin: 5px 30px;
+    font-size: 12px;
+}
+.kart .kart-bas{
+    background-color: rgba(0, 0, 0,0.7);
+    border-radius: 100px;
+}
+.kart .kart-bas h3{
+    text-align: center;
+}
+.kart .kart-bas p{
+    text-align: center;
+    font-size: 10px;
+}
+.kart .buton{
+    position: absolute;
+    bottom: 10px;
+}
+.kartlar{
+    margin-top: auto;
+    max-width: 700px;
+ }
+.bas{
+    flex-basis: 50%;
+    column-gap: 20px;
+    height: 88%;
+    margin-inline: 50px;
+}
+.kart.kart1{
+    background-image: url(Resimler/Resimler/TOGG/togg\ arka.jpg);
+}
+.kart.kart2{
+    background-image: url(Resimler/Resimler/MercedesG3/mercoG3dışi.avif);
+}
+.kart.kart3{
+    background-image: url(Resimler/Resimler/Cupra\ Formentor/cupra.jpg);
+}
+.kart.kart4{
+    background-image: url(Resimler/Resimler/Toyota\ bz4x/toyotaa.jpg);
+}
+.kart.kart5{
+    background-image: url(Resimler/Resimler/Audi\ A8/a8on.jpg);
+}
+.kart.kart6{
+    background-image: url(Resimler/Resimler/Opel\ Astra/opelon.jpg);
+}
+.kart.kart7{
+    background-image: url(Resimler/Resimler/Renault/renon.jpg);
+}
+.kart.kart8{
+    background-image: url(Resimler/Resimler/Skoda\ Superb/skodaonn.jpg);
+}
+.hakkınızda{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 25px 30px;
+}
+.hakkınızda img{
+    width: 200px;
+    height: 100px;
+ }
+ .hakkınızda p{
+    font-size: 15px;
+ }
+ .hakkınızda img{
+    border-radius: 50px 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+ nav img{
+    position: fixed;
+ }
